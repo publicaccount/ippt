@@ -1,0 +1,28 @@
+﻿Построение начато 13.11.2013 1:17:25.
+     1>Проект "D:\Program Files\VC2010Professional\VC2010Project's\hello_world\hello_world\hello_world.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\hello_world.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         D:\Program Files\VC2010Professional\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\hello_world.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hello_world.cpp
+         hello_world.cpp
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         D:\Program Files\VC2010Professional\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\VC2010Professional\VC2010Project's\hello_world\Debug\hello_world.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hello_world.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Program Files\VC2010Professional\VC2010Project's\hello_world\Debug\hello_world.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files\VC2010Professional\VC2010Project's\hello_world\Debug\hello_world.lib" /MACHINE:X86 Debug\hello_world.exe.embed.manifest.res
+         Debug\hello_world.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\hello_world.exe.embed.manifest" /manifest Debug\hello_world.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         hello_world.vcxproj -> D:\Program Files\VC2010Professional\VC2010Project's\hello_world\Debug\hello_world.exe
+       FinalizeBuildStatus:
+         Файл "Debug\hello_world.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\hello_world.lastbuildstate".
+     1>Построение проекта "D:\Program Files\VC2010Professional\VC2010Project's\hello_world\hello_world\hello_world.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.46
