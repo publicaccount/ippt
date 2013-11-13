@@ -1,0 +1,8 @@
+Client: 3 4
+===============
+Selected products:
+Product #1. Ì
+Product #2. Ì
+Product #3. Ì
+Product #4. Ì
+Product #5. Ì

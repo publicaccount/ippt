@@ -1,0 +1,11 @@
+*0	#End#
+*1	Bread
+*2	Butter
+*3	Salt
+*4	Sugar
+*5	Coca-Cola
+*6	Ice-Cream
+*7	Cookie
+*8	Cake
+*9	Candy
+*10	Water
