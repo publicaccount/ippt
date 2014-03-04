@@ -1,1 +1,0 @@
-It's file include some text and some numbers. For example, ABCDEF 12345.
