@@ -1,0 +1,103 @@
+#include <stdio.h>
+#include "stdlib.h"
+#include <iostream>
+#include "asstring.h"
+using namespace std;
+
+int main()
+{
+    const int count=8;
+    //#1 - memcpy
+    cout<<"Start!\n\n#1 - memcpy:"<<endl;
+    int arr2[count];
+    int arr1[count];
+    for (int i=0;i<count;i++)
+    {
+        arr2[i]=i;
+        arr1[i]=-i;
+    }
+
+    cout<<"arr2: ";
+    for (int i=0;i<count;i++)
+    {
+        cout<<arr2[i];
+    }
+    cout<<"\narr1: ";
+    for (int i=0;i<count;i++)
+    {
+        cout<<arr1[i];
+    }
+    memcpy(arr1,arr2,16); // arr[i]=nn/4, [6] = 24;
+    cout<<"\n\narr2: ";
+    for (int i=0;i<count;i++)
+    {
+        cout<<arr2[i];
+    }
+    cout<<"\narr1: ";
+    for (int i=0;i<count;i++)
+    {
+        cout<<arr1[i];
+    }
+    //!#1 - memcpy
+    //#2 - memmove
+    cout<<"\n\n= = = = =\nStart!\n\n#2 - memmove:"<<endl;
+    for (int i=0;i<count;i++)
+    {
+        arr2[i]=i;
+        arr1[i]=-i;
+    }
+
+    cout<<"arr2: ";
+    for (int i=0;i<count;i++)
+    {
+        cout<<arr2[i];
+    }
+    cout<<"\narr1: ";
+    for (int i=0;i<count;i++)
+    {
+        cout<<arr1[i];
+    }
+    memmove(arr1,arr2,16); // arr[i]=nn/4, [6] = 24;
+    cout<<"\n\narr2: ";
+    for (int i=0;i<count;i++)
+    {
+        cout<<arr2[i];
+    }
+    cout<<"\narr1: ";
+    for (int i=0;i<count;i++)
+    {
+        cout<<arr1[i];
+    }
+    //!#2 - memmove
+    //#3 - memchr
+    cout<<"\n\n= = = = =\nStart!\n\n#3 - memchr:"<<endl;
+    char * pch;
+    char str[] = "Example";
+    cout<<"Text: Example"<<endl;
+    pch = (char*) memchr (str, 'a', 7);
+        if (pch!=NULL)
+    printf ("'E' found at position %d.\n", pch-str+1);
+        else
+    printf ("'E' not found.\n");
+    //!#3 - memchr
+ /*   //#4 - memcmp
+    cout<<"\n\n= = = = =\nStart!\n\n#4 - memcmp:"<<endl;
+  char buffer1[] = "DWgaOtP12df0";
+  char buffer2[] = "DWGAOTP12DF0";
+
+  int n;
+
+  n=memcmp ( buffer1, buffer2, sizeof(buffer1) );
+
+  if (n>0) printf ("'%s' is greater than '%s'.\n",buffer1,buffer2);
+  else if (n<0) printf ("'%s' is less than '%s'.\n",buffer1,buffer2);
+  else printf ("'%s' is the same as '%s'.\n",buffer1,buffer2);
+    //!#4 - memcmp*/
+    //#5 - memset
+    char str[] = "Каждый хороший программист должен знать функцию memset!n";
+    memset(str,'_',12);
+    cout << str;
+    return 0;
+    //!#5 - memset
+    return 0;
+}

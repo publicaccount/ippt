@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1393936447 source:c:\documents and settings\admin\Мои документы\codeblock's_projects\asstring\main.cpp
+	<stdio.h>
+	"stdlib.h"
+	<iostream>
+	"asstring.h"
+
+1393936923 c:\documents and settings\admin\Мои документы\codeblock's_projects\asstring\asstring.h
+

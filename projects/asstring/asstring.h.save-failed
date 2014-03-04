@@ -1,0 +1,39 @@
+#ifndef ASSTRING_H_INCLUDED
+#define ASSTRING_H_INCLUDED
+
+void *memcpy(void *dst, const void *src, size_t n)
+{
+for(int i = 0; i < n; i++ )
+{
+    ((char*)dst)[i] = ((char*)src)[i];
+}
+return dst;
+}
+
+void *memmove(void *dst, const void *src, size_t n)
+{
+for(int i = 0; i < n; i++ )
+{
+    ((char*)dst)[i] = ((char*)src)[i];
+}
+return dst;
+}
+
+void *memchr(const void *s, char c, size_t n)
+{
+for(int i=0; i<n; i++)
+{
+    if(((char*)s)[i]==((char)c))
+    {
+        return void *s;
+    }
+    else
+    {
+        if(n=i)
+        {
+            return NULL;
+        }
+    }
+}
+}
+#endif // ASSTRING_H_INCLUDED
