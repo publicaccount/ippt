@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1394565886 source:c:\documents and settings\admin\Мои документы\codeblock's_projects\[2]tree\main.cpp
+	"Windows.h"
+	"stdio.h"
+	"stdlib.h"
+	"ctime"
+
